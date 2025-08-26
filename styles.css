@@ -1,0 +1,166 @@
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      margin-top: 5px;
+    }
+    nav a {
+      color: rgb(199, 27, 27);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f39c12;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 0px;
+    
+    }
+    .card {
+      background: rgb(227, 231, 206);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 10px;
+    }
+    .card p {
+      margin: 10px;
+      color: #777;
+    }
+    .card button {
+      display: block;
+      margin: 10px auto 15px auto;
+      padding: 10px 20px;
+      border: none;
+      background: #111;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .card button:hover {
+      background: #f39c12;
+    }
+    form {
+      background: rgb(206, 223, 159);
+      padding: 50px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin: auto;
+    }
+    form input, form textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #111;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #f39c12;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+
+.ofertas {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #ff7eb3, #65d8ff); 
+    border-radius: 10px;
+}
+
+.h2ofer {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.contenedor-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px;
+  max-width: 1000px; 
+  margin: 0 auto;
+
+}
+
+
+    
+
+
+    .sobre{ 
+    
+background-color: #cfbea1;
+border-radius: 10px;
+margin-top: 100px;
+    }
+
+
+
+.btn-ig {
+
+
+  padding: 10px 20px;
+  background: #111; /* color característico de IG */
+  color: rgb(204, 9, 9);
+  font-size: 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-ig:hover {
+  background: #ddcf06; /* un poco más oscuro al pasar el mouse */
+}
